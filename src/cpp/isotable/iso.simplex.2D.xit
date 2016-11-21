@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<isotable>
+<!-- Isosurface lookup table -->
+<version> 1.0 </version>
+<creationDate> 2008-01-21 </creationDate>
+<dimension> 2  1 </dimension>
+<poly>
+<vertices>
+<numVertices> 3 </numVertices>
+<c> 0 0 </c>
+<c> 2 0 </c>
+<c> 0 2 </c>
+</vertices>
+<edges>
+<numEdges> 3 </numEdges>
+<v> 0 1 </v>
+<v> 0 2 </v>
+<v> 1 2 </v>
+</edges>
+<facets>
+<numFacets> 3 </numFacets>
+<f> 2 0 1 </f>
+<f> 2 1 2 </f>
+<f> 2 0 2 </f>
+</facets>
+</poly>
+<isoVertices>
+<numVertices> 3 </numVertices>
+<w> <inE> 0 </inE> </w>
+<w> <inE> 1 </inE> </w>
+<w> <inE> 2 </inE> </w>
+</isoVertices>
+<table>
+<encoding> BINARY </encoding>
+<numEntries> 8 </numEntries>
+<s> 0 </s>
+<s> 1 0 1 </s>
+<s> 1 2 0 </s>
+<s> 1 2 1 </s>
+<s> 1 1 2 </s>
+<s> 1 0 2 </s>
+<s> 1 1 0 </s>
+<s> 0 </s>
+</table>
+</isotable>

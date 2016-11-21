@@ -1,0 +1,55 @@
+Instructions for Ubuntu:
+
+1) Extract ijkmcube, isotable and lib folders to a project directory (prj_dir)
+
+2) Navigate to prj_dir/ijkmcube folder (and delete CMakeCache.txt if one exists)
+
+3) Now, reconfigure project using following commands:
+
+-Type "ccmake ." and "c" twice to configure.
+
+-Check that IJK_DIR is set to project directory. [Here: prj_dir]
+(If not, modify the path for IJK_DIR.)
+
+-Check that IJK_ISOTABLE_DIR is set to directory containing the isosurface lookup tables. [Here: prj_dir/isotable]
+(If not, modify the path for IJK_ISOTABLE_DIR.)
+
+-Check that LIBRARY_OUTPUT_PATH is set to directory containing libraries (libteem and libexpat). [Here: prj_dir/lib]
+(If not, modify the path for LIBRARY_OUTPUT_PATH.)
+
+-Press "g" to generate the Makefile and exit.
+
+-Type "cmake .".
+
+-Type "make" to create executable "ijkmcube".
+
+-Type "make install" to install executables in ${IJK_DIR}/bin.		
+
+Please install the isosurface visualization software "geomview"
+
+sudo apt-get install geomview
+
+In case of uniform density, the cell configuration corresponding to mean is same as the most probable cell configuration.
+So, the same executable "ijkmcube" can be used to get isosurface corresponding to mean and most probable configurations.
+However, the source code for computing most probable configuration is included. Please comment a call to "extract_iso_simplices"
+at line 538 in ijkmcube.cxx and uncomment a call to "extract_iso_simplices" at line 534. Again, recompile the code.
+
+sample command:
+
+./ijkmcube -interpolate "alpha_uncertainty" 56 fuel.nrrd
+
+fuel.nrrd represents mean grid and 2_fuel.nrrd represents delta grid. Both must be placed in the working folder.
+
+The above command creates fuel.isov=56.off file. This can be visualized using "geomview" software using following command:
+
+geomview fuel.isov=56.off
+
+In the old version of code, "alpha_uncertainty_coord" function in "ijkinterpolate.txx" file is different from one in the new version. 
+
+
+
+
+
+
+
+

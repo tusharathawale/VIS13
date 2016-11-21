@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<isotable>
+<!-- Isosurface lookup table -->
+<version> 1.0 </version>
+<creationDate> 2008-01-21 </creationDate>
+<dimension> 2  1 </dimension>
+<poly>
+<vertices>
+<numVertices> 4 </numVertices>
+<c> 0 0 </c>
+<c> 2 0 </c>
+<c> 0 2 </c>
+<c> 2 2 </c>
+</vertices>
+<edges>
+<numEdges> 4 </numEdges>
+<v> 0 1 </v>
+<v> 0 2 </v>
+<v> 1 3 </v>
+<v> 2 3 </v>
+</edges>
+<facets>
+<numFacets> 4 </numFacets>
+<f> 2 0 2 </f>
+<f> 2 1 3 </f>
+<f> 2 0 1 </f>
+<f> 2 2 3 </f>
+</facets>
+</poly>
+<isoVertices>
+<numVertices> 8 </numVertices>
+<w> <inV> 0 </inV> </w>
+<w> <inV> 1 </inV> </w>
+<w> <inV> 2 </inV> </w>
+<w> <inV> 3 </inV> </w>
+<w> <inE> 0 </inE> </w>
+<w> <inE> 1 </inE> </w>
+<w> <inE> 2 </inE> </w>
+<w> <inE> 3 </inE> </w>
+</isoVertices>
+<table>
+<encoding> BASE3 </encoding>
+<numEntries> 81 </numEntries>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 4 5 </s>
+<s> 0 </s>
+<s> 1 1 0 </s>
+<s> 1 1 5 </s>
+<s> 1 6 4 </s>
+<s> 1 6 0 </s>
+<s> 1 6 5 </s>
+<s> 0 </s>
+<s> 1 0 2 </s>
+<s> 1 4 2 </s>
+<s> 0 </s>
+<s> 1 1 2 </s>
+<s> 1 1 2 </s>
+<s> 2 6 2 2 4 </s>
+<s> 1 6 2 </s>
+<s> 1 6 2 </s>
+<s> 1 5 7 </s>
+<s> 1 0 7 </s>
+<s> 1 4 7 </s>
+<s> 2 5 1 1 7 </s>
+<s> 1 1 7 </s>
+<s> 1 1 7 </s>
+<s> 2 5 4 6 7 </s>
+<s> 1 6 7 </s>
+<s> 1 6 7 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 2 3 5 4 3 </s>
+<s> 1 3 1 </s>
+<s> 1 3 0 </s>
+<s> 1 3 5 </s>
+<s> 1 3 4 </s>
+<s> 1 3 0 </s>
+<s> 1 3 5 </s>
+<s> 1 2 3 </s>
+<s> 1 0 3 </s>
+<s> 1 4 3 </s>
+<s> 1 2 1 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 2 4 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 5 3 </s>
+<s> 1 0 3 </s>
+<s> 1 4 3 </s>
+<s> 1 5 1 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 5 4 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 7 6 </s>
+<s> 2 0 6 7 0 </s>
+<s> 2 4 6 7 5 </s>
+<s> 1 7 1 </s>
+<s> 1 7 0 </s>
+<s> 1 7 5 </s>
+<s> 1 7 4 </s>
+<s> 1 7 0 </s>
+<s> 1 7 5 </s>
+<s> 1 2 6 </s>
+<s> 1 0 6 </s>
+<s> 1 4 6 </s>
+<s> 1 2 1 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 2 4 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 5 6 </s>
+<s> 1 0 6 </s>
+<s> 1 4 6 </s>
+<s> 1 5 1 </s>
+<s> 0 </s>
+<s> 0 </s>
+<s> 1 5 4 </s>
+<s> 0 </s>
+<s> 0 </s>
+</table>
+</isotable>

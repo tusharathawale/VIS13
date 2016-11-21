@@ -1,0 +1,25 @@
+
+ijkmcube:
+
+Version 0.2.6: Implemented  -octree and -region option with -snap option.
+
+Version 0.2.7: Revised -snap option to break snapping ties by smallest
+vertex index.  Program ijkmcube with "-snap D" or "-snap D -region L"
+or "-snap D -octree" options should produce same set of isosurface vertices
+and simplices.  (Vertices and simplices may not be in the same order.)
+
+Version 0.2.8: 
+  Default -ivol output file has format 'prefix.ivol=20-30.off' (not 'prefix.ivol=20,30.off'.)
+  Added -supersample option.  Multilinear interpolation used in computing supersample values.
+  Added -color_alternating option.  Colors simplices in alternating cubes with alternating colors.
+  Added -mark option.  Color simplices in marked cubes.
+  Corrected compilation errors detected by g++ 4.1.1 compiler.
+
+Version 0.2.9:
+  Changed some functions for compatibility with newer versions of g++.
+  Added asymptotic decider.
+  Added data structures MC_DATA and MC_ISOSURFACE to make interface cleaner, easier and
+    more object oriented.
+
+Version 0.3.0: 
+  Release version.
